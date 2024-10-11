@@ -1,0 +1,102 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.basic-info {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.features {
+    background-color: #efebeb;
+    padding: 20px;
+}
+
+.contributors {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.demo {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.feature {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.contributor img {
+    border-radius: 50%;
+    align-content: center;
+}
+
+.demo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    size-adjust: auto;
+}
+
+.footer a {
+    color: rgb(194, 245, 228);
+}
+
+.download {
+    text-align: center;
+    padding: 20px;
+}
+
+.download p {
+    text-align: center;
+    padding: 20px;
+}
+
+.download a {
+ 
+    background-color: #3498db; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px; 
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    cursor: pointer; 
+  
+}
+
